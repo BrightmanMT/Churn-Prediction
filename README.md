@@ -67,7 +67,7 @@ Key steps include:
 |-------------|----------|----------------------|------------------|--------------------|
 | Logistic Regression (LR) | 0.8821   | 0.74                 | 0.43             | 0.54               |
 | Random Forest (RF)       | 0.9506   | 0.80                 | 0.71             | 0.74               |
-| XGBoost                  | 0.9566   | 0.82                 | 0.74             | 0.77               |
+| XGBoost                  | 0.9518  | 0.84                 | 0.87            | 0.85              |
 
 
 ---
@@ -87,24 +87,26 @@ These metrics were calculated for both classes, but more focus was given to **Cl
 
 ---
 
+##🧠 Business Insight from XGBoost Evaluation Metrics
 
-## 🧠 Business Insight from XGBoost Evaluation Metrics
+The XGBoost model achieved an accuracy of 95.18%, but in churn prediction, accuracy alone is not sufficient. What truly matters is the model’s performance on identifying churned customers (Class 1) — the individuals likely to stop using the service.
 
-The XGBoost model achieved an **accuracy of 95.06%**, but accuracy alone isn’t enough in a churn prediction scenario. What really matters is how well the model identifies **churned customers (Class 1)** — these are the people who are likely to stop using the service.
+Here’s what each key metric means in business terms:
 
-Here’s what each metric means in business terms:
+- **Precision (Class 1 - Churned: 84%)**
 
-- **Precision (Class 1 - Churned: 81%)**
-  > This means that when the model predicts a customer will churn, it's correct **81% of the time**.  
-  ✅ **Business Impact**: Fewer false alarms. You don’t waste resources offering retention deals to customers who wouldn’t have left anyway.
+  > When the model predicts a customer will churn, it's correct 84% of the time.
+✅ Business Impact: Fewer false alarms. This ensures retention efforts (discounts, follow-ups, etc.) are targeted toward the right customers — saving marketing resources.
 
-- **Recall (Class 1 - Churned: 71%)**
-  > The model correctly identifies **71% of all actual churners**.  
-  ✅ **Business Impact**: You can proactively target most of the customers at risk before they leave, reducing revenue loss.
+- **Recall (Class 1 - Churned: 87%)**
 
-- **F1-Score (Class 1 - Churned: 74%)**
-  > A balanced score combining precision and recall.  
-  ✅ **Business Impact**: Confirms that the model performs well overall in catching churners without flooding the system with false positives.
+  > The model successfully identifies 87% of actual churners.
+✅ Business Impact: Enables proactive engagement with most customers who are likely to leave — helping reduce churn and retain revenue.
+
+- **F1-Score (Class 1 - Churned: 85%)**
+
+  > A balanced measure combining both precision and recall.
+✅ Business Impact: Confirms that the model effectively detects churners without generating too many false positives or negatives — offering a dependable foundation for customer retention strategies.
 
 
 ---
@@ -117,9 +119,6 @@ By maintaining high **precision**, the business avoids wasting effort on the wro
 
 💡 This kind of data-driven targeting leads to **smarter retention campaigns**, better **customer experience**, and higher **lifetime value** per customer.
 
-<p align="center">
-  <img src="assets/final_xgboost_perfomance" alt="final m" width="80%">
-</p>
 
 ## 🌍 Business Value for E-commerce Companies in Africa & Beyond
 
@@ -128,10 +127,10 @@ This churn prediction model is designed to empower **e-commerce businesses**, es
 ### 🎯 What Can Businesses Gain from This Model?
 
 - 🔍 **Identify At-Risk Customers Before They Leave**  
-  With a **recall of 71%** for churned customers, businesses can detect most customers likely to churn and take action **before** losing them — crucial in markets with limited customer pools.
+  With a **recall of 87%** for churned customers, businesses can detect most customers likely to churn and take action **before** losing them — crucial in markets with limited customer pools.
 
 - 💰 **Run Cost-Efficient Retention Campaigns**  
-  Thanks to a **precision of 81%**, the model avoids unnecessary spending by ensuring that offers and incentives are only given to customers **who are truly at risk**.
+  Thanks to a **precision of 84%**, the model avoids unnecessary spending by ensuring that offers and incentives are only given to customers **who are truly at risk**.
 
 - 📊 **Smarter Resource Allocation**  
   Insights from model features (e.g., satisfaction score, complaints, preferred order category) allow teams to **target marketing efforts strategically**, focusing on the segments with the highest impact.
