@@ -41,8 +41,8 @@ Key insights were uncovered through EDA:
 
 
 <p align="center">
-  <img src="assets/Customer_churn_prediction.png" alt="Churn Prediction Banner" width="80%">
   <img src="assets/churn_distribution.png" alt="Churn distr" width="80%">
+  <img src="assets/churn_by_service.png" alt="Churn Prediction Banner" width="80%">
   <img src="assets/Feature_Correclation_Matrix.png" alt="Churn feature corr" width="80%">
 </p>
 
@@ -117,8 +117,9 @@ By maintaining high **precision**, the business avoids wasting effort on the wro
 
 💡 This kind of data-driven targeting leads to **smarter retention campaigns**, better **customer experience**, and higher **lifetime value** per customer.
 
-![Xgb boost perfomance](assets/final_xgboost_perfomance.png)
-
+<p align="center">
+  <img src="assets/final_xgboost_perfomance" alt="final m" width="80%">
+</p>
 
 ## 🌍 Business Value for E-commerce Companies in Africa & Beyond
 
