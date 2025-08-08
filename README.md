@@ -30,6 +30,8 @@ Key insights were uncovered through EDA:
 - Customer segmentation based on services used.
 
 ![Churn Distribution](assets/churn_distribution.png)
+![Churn Distribution](assets/churn_by_service.png)
+![Churn Distribution](assets/Feature_Correclation_Matrix.png)
 
 ---
 
