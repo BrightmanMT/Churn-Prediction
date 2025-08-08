@@ -39,10 +39,12 @@ Key insights were uncovered through EDA:
 - Distribution of churned vs non-churned customers.
 - Customer segmentation based on services used.
 
-![Churn Distribution](assets/churn_distribution.png)
-![Churn by Preferred Order Category](assets/churn_by_service.png)
-![Feature Correlation Matrix](assets/Feature_Correlation_Matrix.png)
 
+<p align="center">
+  <img src="assets/Customer_churn_prediction.png" alt="Churn Prediction Banner" width="80%">
+  <img src="assets/churn_distribution.png" alt="Churn distr" width="80%">
+  <img src="assets/Feature_Correclation_Matrix.png" alt="Churn feature corr" width="80%">
+</p>
 
 ---
 
