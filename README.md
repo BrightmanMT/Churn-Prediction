@@ -2,18 +2,22 @@
 # 🧠 Customer Churn Prediction using Machine Learning
 
 <p align="center">
-  <img src="assets/your_image_name.png" alt="Churn Prediction Banner" width="80%">
+  <img src="assets/Customer_churn_prediction.png" alt="Churn Prediction Banner" width="80%">
 </p>
 
 This project focuses on building a predictive model to identify customers likely to churn from an e-commerce platform. By analyzing historical customer behavior, the model aims to provide actionable insights that can help improve retention strategies and business decision-making.
 
+
 ---
+
 
 ## 📌 Problem Statement
 
 Customer churn is a significant challenge in the e-commerce industry. Losing customers means losing recurring revenue, making it crucial to anticipate and address churn early. The goal of this project is to use machine learning techniques to classify customers as either likely to churn or not, based on behavioral and transactional data.
 
+
 ---
+
 
 ## 🔧 Tools & Technologies Used
 
@@ -24,7 +28,9 @@ Customer churn is a significant challenge in the e-commerce industry. Losing cus
 - **Logistic Regression**, **Random Forest**, **XGBoost**
 - **Confusion Matrix**, **ROC-AUC**, **F1-Score**
 
+
 ---
+
 
 ## 📊 Exploratory Data Analysis (EDA)
 
@@ -37,7 +43,9 @@ Key insights were uncovered through EDA:
 ![Churn by Preferred Order Category](assets/churn_by_service.png)
 ![Feature Correlation Matrix](assets/Feature_Correlation_Matrix.png)
 
+
 ---
+
 
 ## 🔍 Feature Engineering
 
@@ -47,7 +55,9 @@ Key steps include:
 - Feature scaling using StandardScaler.
 - Feature importance analysis with tree-based models.
 
+
 ---
+
 
 ## 📊 Model Performance Comparison
 
@@ -60,6 +70,7 @@ Key steps include:
 
 ---
 
+
 ## 📈 Evaluation Metrics
 
 To assess the performance of the classification models, the following evaluation metrics were used:
@@ -71,7 +82,9 @@ To assess the performance of the classification models, the following evaluation
 
 These metrics were calculated for both classes, but more focus was given to **Class 1 (Churned customers)** since the goal is to accurately identify customers likely to leave.
 
+
 ---
+
 
 ## 🧠 Business Insight from XGBoost Evaluation Metrics
 
@@ -91,7 +104,9 @@ Here’s what each metric means in business terms:
   > A balanced score combining precision and recall.  
   ✅ **Business Impact**: Confirms that the model performs well overall in catching churners without flooding the system with false positives.
 
+
 ---
+
 
 🧩 **Why This Matters**  
 In subscription-based or e-commerce businesses, even small improvements in churn reduction can significantly impact profits.  
@@ -100,7 +115,7 @@ By maintaining high **precision**, the business avoids wasting effort on the wro
 
 💡 This kind of data-driven targeting leads to **smarter retention campaigns**, better **customer experience**, and higher **lifetime value** per customer.
 
-![Xgb boost perfomance](assets/xgboost_perfomance.png)
+![Xgb boost perfomance](assets/final_xgboost_perfomance.png)
 
 
 ## 🌍 Business Value for E-commerce Companies in Africa & Beyond
@@ -124,7 +139,9 @@ This churn prediction model is designed to empower **e-commerce businesses**, es
 - 📈 **Boost Customer Lifetime Value (CLV)**  
   Retaining a customer in Zimbabwe or Africa often means building long-term brand loyalty. Reducing churn directly increases **CLV**, which translates to more stable revenue.
 
+
 ---
+
 
 ### 🧠 Why This Matters in Africa’s E-commerce Space
 
@@ -139,14 +156,17 @@ Many African startups face stiff competition and tight budgets. This project sho
 
 ---
 
+
 ## 🙋‍♂️ About Me
 
 I’m **Brightman**, an aspiring data scientist from Zimbabwe, passionate about building impactful machine learning solutions and making data-driven decisions accessible and actionable.
 
+
 ---
+
 
 ## 📫 Contact
 
-- **LinkedIn**: [linkedin.com/in/brightmanmutumwapavi](https://linkedin.com/in/brightmanmutumwapavi)
-- **Portfolio**: [brightman.dev](https://yourportfolio.com)
-- **Email**: your.email@example.com
+- **LinkedIn**: [linkedin.com/in/brightmanmutumwapavi](www.linkedin.com/in/brightman-mutumwapavi-aa567b28a)
+- **Portfolio**: [brightman.dev](https://myportfolio.com)
+- **Email**: mutumwapavibrightma@gmail.com
