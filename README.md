@@ -31,7 +31,7 @@ Key insights were uncovered through EDA:
 
 ![Churn Distribution](assets/churn_distribution.png)
 ![Churn by Preferred Order Category](assets/churn_by_service.png)
-![Feature Correlation Matrix](assets/Feature_Correclation_Matrix.png)
+![Feature Correclation Matrix](assets/Feature_Correclation_Matrix.png)
 
 ---
 
